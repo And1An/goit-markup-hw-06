@@ -146,12 +146,19 @@ header {
 
 }
 
-.container-list-item {
+/* .container-list-item { 
     display: flex;
     gap: 24px;
 
-}
+} */
 
+
+.container-list-item {
+    gap: 24px;
+
+
+
+}
 .container-list {
     display: flex;
     gap: 40px;
@@ -392,13 +399,23 @@ address {
 
 }
 
-.caption {
+/* .caption {
     color: var(--brand-color2);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+} */
+
+.caption{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 8px;
 }
 
 .section-two {
@@ -415,13 +432,25 @@ address {
     color: var(--brand-color5);
 }
 
-.caption-desc {
+/* .caption-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color5);
     width: 264px;
+} для компа */
+
+.caption-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color5);
+
+    margin-bottom: 72px;
+ 
+
 }
+
 
 .subtitle {
     color: var(--brand-color2);
@@ -858,7 +887,10 @@ address {
     border-radius: 4px;
     height: 112px;
     margin-bottom: 8px;
+    display: none;
+    /* для моб */
 }
+
 
 .current{
     color: var(--brand-color3);
@@ -1135,5 +1167,13 @@ address {
 
 .modal-checkbox{
     margin-bottom: 24px;
+
+}
+
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 428px;
+
+    }
 
 }
