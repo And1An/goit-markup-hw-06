@@ -26,6 +26,8 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -84,10 +86,21 @@ header {
 
 .header-content {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+    display: flex;
+  
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 70px;
+    width: 100%;
+    
 }
 
 
+.menu-open-btn{
+    margin-left: auto;
+    width: 32px;
+    height: 32px;
+}
 
 .logo {
     color: var(--brand-color);
@@ -150,7 +163,7 @@ header {
 
 
 .container-list {
-    display: flex;
+    display: none;
     gap: 40px;
 
 
@@ -175,7 +188,7 @@ address {
 }
 
 .contacts-list {
-    display: flex;
+    display: none;
     gap: 40px;
 
 }
@@ -183,7 +196,11 @@ address {
 .header-container {
     display: flex;
     align-items: center;
+ 
+
 }
+
+
 
 .contacts:hover {
     color: var(--brand-color3);
@@ -692,9 +709,9 @@ address {
 
 
 .company-item {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 48px) / 2);
     height: 88px;
-
+   
 }
 
 
@@ -739,15 +756,19 @@ address {
 }
 
 
+
 .section-five {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+
 }
+
 
 .section-five-list {
     display: flex;
     justify-content: center;
     gap: 24px;
+    flex-wrap: wrap;
 
 }
 
@@ -1223,6 +1244,12 @@ address {
             width: 264px;
          }
 
+                 .company-item {
+                     width: calc((100% - 48px) / 3);
+                     height: 88px;
+        
+                 }
+
      }
 
 
@@ -1238,7 +1265,7 @@ address {
         max-width: 1158px;
         max-width: 1158px;
         padding-left: 15px;
-        padding-right: 15container-list-itempx;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
             }
@@ -1278,6 +1305,45 @@ address {
     padding: 120px 0;
 
 
+}
+
+.section-five {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.company-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+
+}
+
+.section-five-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+img {
+    display: block;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.header-content {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
 }
