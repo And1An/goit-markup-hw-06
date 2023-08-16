@@ -40,16 +40,75 @@
                 </ul>
             </address>
 
-        <button class="menu-open-btn" type="button">
+        <button class="menu-open-btn" type="button" js-open-menu>
             <svg width="32" height="32">
-                <use href="./images/icons.svg#icon-Vector"></use>
+                <use href="./images/icons.svg#icon-menu"></use>
             </svg>
         </button>
 
         </div>
 
-        <div class="mob-menu">
-            <button class="close-mob-menu" type="button">x</button>
+        <div class="mob-menu is-hidden" .js-menu-container>
+            <button class="close-mob-menu" type="button" js-close-menu >
+                <svg width="8" height="8">
+                    <use href="./images/icons.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <ul class="mob-menu-list">
+                <li class="mob-menu-item"><a class="mob-menu-link" href="./index.html">Studio</a></li>
+                <li class="mob-menu-item"><a class="mob-menu-link" href="./portfolio.html">Portfolio</a></li>
+                <li class="mob-menu-item"><a class="mob-menu-link" href="">Contacts</a></li>
+            </ul>
+
+            <address class=" mob-menu-contacts contacts">
+                <ul class="mob-contacts-list">
+                    <li class="mob-number-list"><a class="mob-number-link" href="mailto:info@devstudio.com">+11 (000) 111-11-11</a></li>
+                    <li><a class="mob-email-link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                   
+                </ul>
+            </address>
+
+            <ul class="mob-menu-network">
+            
+            
+                <li class="soc-network-list">
+                    <a class="soc-network-link" href="#">
+                        <svg class="soc-network-cartoon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-section4-6-inst"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+            
+            
+            
+            
+                <li class="soc-network-list">
+                    <a class="soc-network-link" href="#">
+                        <svg class="soc-network-cartoon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-section4-6-twit"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+            
+                <li class="soc-network-list">
+                    <a class="soc-network-link" href="#">
+                        <svg class="soc-network-cartoon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-section4-6-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+            
+            
+                <li class="soc-network-list">
+                    <a class="soc-network-link" href="#">
+                        <svg class="soc-network-cartoon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-section4-6-in"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
 
         </div>
 
@@ -539,7 +598,10 @@
         </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
+    
+
 </body>
 
 </html>
