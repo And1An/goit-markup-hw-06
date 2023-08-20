@@ -371,6 +371,9 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
 
 }
 
@@ -398,11 +401,10 @@ address {
     letter-spacing: 0.02em;
 
 
+
 }
 
-.logo-div {
-    margin-right: 120px;
-}
+
 
 .hero {
     background-color: var(--brand-color2);
@@ -851,6 +853,8 @@ address {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
 
 
@@ -872,8 +876,8 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color4);
-    margin-bottom: 16px;
-
+    
+   
 
 }
 
@@ -1264,7 +1268,8 @@ address {
 
 
 .logo-div2 {
-    margin-right: 80px;
+    margin-top: 72px;
+    
 }
 
 
@@ -1278,9 +1283,20 @@ address {
 
 }
 
+
+.footer-container{
+    text-align: center;
+}
+
 @media screen and (min-width: 428px) {
     .container {
         max-width: 428px;
+
+    }
+
+    .footer-form {
+        align-items: center;
+        justify-content: center;
 
     }
 
@@ -1454,11 +1470,52 @@ address {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)), url(../images/hero-tablet-2x.jpg);
     }
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+
+
+
+}
+
+.logo-div{
+   
+    margin-right: 0;
+}
+
+.logo-div2{
+   margin-left: 0;
+}
+
+.media-text {
+    text-align: left;
+    
+
+
+}
+
+
+.footer-email-title{
+    text-align: left;
+}
+
+.footer-email-label{
+   
 }
 
 
 
+.email-footer {
+    width: 264px;
+}
 
+
+
+}
 
 
 
@@ -1719,7 +1776,7 @@ address {
     align-items: center;
     padding: 8px 24px;
     justify-content: center;
-    letter-spacing: 0.04em
+    letter-spacing: 0.04em;
 }
 
 
@@ -1739,6 +1796,46 @@ address {
     transition-property: background-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo-div {
+    margin-right: 120px;
+}
+
+.logo-div2 {
+    margin-right: 80px;
+}
+.title-footer {
+    color: var(--brand-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
+
+}
+
+.media-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color4);
+    margin-bottom: 16px;
+
+
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+
 }
 
 }
