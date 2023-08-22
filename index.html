@@ -194,11 +194,18 @@
         </section> -->
 
         <section class="section-four">
-            <div class="container">
+            <div class="container container-tabl">
                 <h2 class="subject">Our Team</h2>
                 <ul class="list subject-list ">
-                    <li class="subject-list-teammate"><img class="section-four-img" src="./images/teammate-1-min.jpg"
-                            width="264" height="260" alt="photo Product Designer">
+                    <li class="subject-list-teammate">
+                        <picture>
+                             <source srcset="./images/teammate-1-min.jpg 1x, ./images/teammate-1-minx2.jpg 2x" media="(min-width:1158px)">
+                            <source srcset="./images/teammate-1-min.jpg 1x, ./images/teammate-1-minx2.jpg 2x" media="(min-width:768px)">
+                            <source srcset="./images/teammate-1-min.jpg 1x, ./images/teammate-1-minx2.jpg 2x" media="(min-width:428px)">
+
+                            <img class="section-four-img" src="./images/teammate-1-min.jpg" width="264" alt="photo Product Designer">
+                        </picture>
+                        
                         <div class="name-job">
                             <h3 class="subject-name"> Mark Guerrero </h3>
                             <p class="subject-jobtitle"> Product Designer </p>
@@ -207,7 +214,7 @@
 
                                 <li class="soc-network-list">
                                     <a class="soc-network-link" href="#">
-                                        <svg class="soc-network-cartoon" width="16" height="16">
+                                        <svg class="soc-network-cartoon" srcs="" width="16" height="16">
                                             <use href="./images/icons.svg#icon-section4-6-inst"></use>
                                         </svg>
                                     </a>
@@ -245,8 +252,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="subject-list-teammate"><img class="section-four-img" src="./images/teammate-2-min.jpg"
-                            width="264" height="260" alt="photo Frontend Developer">
+                    <li class="subject-list-teammate">
+                        <picture>
+                            <source srcset="./images/teammate-2-min.jpg x1, ./images/teammate-2-minx2.jpg x2" media="(min-width:1158px)">
+                            <source srcset="./images/teammate-2-min.jpg x1, ./images/teammate-2-minx2.jpg x2" media="(min-width:768px)">
+                            <source srcset="./images/teammate-2-min.jpg x1, ./images/teammate-2-minx2.jpg x2" media="(min-width:428px)">
+                            <img class="section-four-img" src="./images/teammate-2-min.jpg" width="264" alt="photo Frontend Developer">
+                        </picture>
+                        
                         <div class="name-job">
                             <h3 class="subject-name">Tom Ford</h3>
                             <p class="subject-jobtitle">Frontend Developer</p>
@@ -293,8 +306,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="subject-list-teammate"><img class="section-four-img" src="./images/teammate-3-min.jpg"
-                            width="264" height="260" alt="photo Marketing">
+                    <li class="subject-list-teammate">
+                        <picture>
+                            <source srcset="./images/teammate-3-min.jpg x1, ./images/teammate-3-minx2.jpg x2" media="(min-width:1158px)">
+                            <source srcset="./images/teammate-3-min.jpg x1, ./images/teammate-3-minx2.jpg x2" media="(min-width:768px)">
+                            <source srcset="./images/teammate-3-min.jpg x1, ./images/teammate-3-minx2.jpg x2" media="(min-width:428px)">
+                            <img class="section-four-img" src="./images/teammate-3-min.jpg" width="264" alt="photo Marketing">
+                        </picture>
+                       
                         <div class="name-job">
                             <h3 class="subject-name">Camila Garcia</h3>
                             <p class="subject-jobtitle">Marketing</p>
@@ -343,8 +362,14 @@
                         </div>
                     </li>
 
-                    <li class="subject-list-teammate"><img class="section-four-img" src="./images/teammate-4-min.jpg"
-                            width="264" height="260" alt="photo UI Designer">
+                    <li class="subject-list-teammate">
+                        <picture>
+                            <source srcset="./images/teammate-4-min.jpg x1, ./images/teammate-4-minx2.jpg x2" media="(min-width:1158px)">
+                            <source srcset="./images/teammate-4-min.jpg.jpg x1, ./images/teammate-4-minx2.jpg x2" media="(min-width:768px)">
+                            <source srcset="./images/teammate-4-min.jpg x1, ./images/teammate-4-minx2.jpg x2" media="(min-width:428px)">
+                            <img class="section-four-img" src="./images/teammate-4-min.jpg" width="264" alt="photo UI Designer">
+                        </picture>
+                       
                         <div class="name-job">
                             <h3 class="subject-name">Daniel Wilson</h3>
                             <p class="subject-jobtitle">UI Designer</p>
@@ -396,7 +421,7 @@
 
 
         <section class="section-five">
-            <div class="container">
+            <div class="container container-tabl">
                 <h2 class="section-five-title">Customers</h2>
                 <ul class=" section-five-list">
 
@@ -454,7 +479,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer-container container-tabl">
 
 
             <div class="logo-div">

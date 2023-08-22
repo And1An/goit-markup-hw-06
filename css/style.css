@@ -53,7 +53,7 @@ button {
 }
 
 .container {
-    max-width: 1158px;
+    max-width: 296px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -73,6 +73,8 @@ button {
 
 header {
     border-bottom: 1px solid var(--brand-color7);
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 
@@ -408,7 +410,7 @@ address {
 
 .hero {
     background-color: var(--brand-color2);
-    padding: 188px 0 188px 0;
+    padding: 112px 0 112px 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -535,7 +537,6 @@ address {
     letter-spacing: 0.02em;
     color: var(--brand-color5);
 
-    margin-bottom: 72px;
 
 
 }
@@ -564,7 +565,7 @@ address {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: 264px;
-    margin-bottom: 72px;
+ 
     /* для моб */
 
 }
@@ -789,7 +790,7 @@ address {
 .company-item {
     width: calc((100% - 48px) / 2);
     height: 88px;
-
+ 
 }
 
 
@@ -845,7 +846,7 @@ address {
 .section-five-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 72px 16px;
     flex-wrap: wrap;
 
 }
@@ -1178,7 +1179,7 @@ address {
 }
 
 .email-footer {
-    min-width: 398px;
+    width: 398px;
     height: 40px;
     border: 1px solid var(--brand-color4);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -1283,6 +1284,10 @@ address {
 
 }
 
+.section-two-items{
+    margin-bottom: 72px;
+}
+
 
 .footer-container{
     text-align: center;
@@ -1316,10 +1321,16 @@ address {
     .section-two-items {
         width: calc((100% - 24px) / 2);
         display: inline-block;
-        padding-left: 24px;
+       
 
 
     }
+    .container-tabl{
+        width: 584px;
+    }
+
+
+     
 
     .caption {
         font-size: 36px;
@@ -1328,20 +1339,17 @@ address {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 8px;
-        text-align: center;
+        text-align: left;
     }
 
     .subject-list-teammate {
         width: calc((100% - 24px) / 2);
         display: inline-block;
-        margin: 0 24px 64px 0;
+
 
     }
 
-    .subject-list-teammate {
-        width: 264px;
-    }
-
+   
     .company-item {
         width: calc((100% - 48px) / 3);
         height: 88px;
@@ -1448,7 +1456,7 @@ address {
 
 .hero {
     background-color: var(--brand-color2);
-    padding: 188px 0 188px 0;
+    padding: 112px 0 112px 0;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -1474,7 +1482,6 @@ address {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 24px;
 
 
@@ -1503,15 +1510,23 @@ address {
     text-align: left;
 }
 
-.footer-email-label{
-   
-}
+
 
 
 
 .email-footer {
     width: 264px;
 }
+
+.contacts-list-link{
+    font-size: 12px;
+
+}
+
+.section-five-list{
+    gap: 72px 24px  ;
+}
+
 
 
 
@@ -1534,6 +1549,16 @@ address {
     
     
         }
+
+
+.caption{
+        color: var(--brand-color2);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 
 
 
@@ -1578,6 +1603,11 @@ address {
         height: 112px;
         margin-bottom: 8px;
 
+    }
+
+
+    .section-two {
+        padding: 120px 0;
     }
 
     .subject-list-teammate {
@@ -1715,14 +1745,7 @@ address {
 
 }
 
-.footer-container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
 
-
-
-}
 
 .footer-form {
     display: flex;
@@ -1751,7 +1774,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color4);
-    margin-bottom: 16px;
+
     font-weight: 500;
 }
 
@@ -1802,9 +1825,7 @@ address {
     margin-right: 120px;
 }
 
-.logo-div2 {
-    margin-right: 80px;
-}
+
 .title-footer {
     color: var(--brand-color);
     font-family: 'Raleway', sans-serif;
@@ -1831,11 +1852,231 @@ address {
 
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+
+
+
+}
+
+.footer {
+    background-color: var(--brand-color2);
+    padding: 100px 0;
+
+}
+
+
+.logo-div {
+    margin-right: 120px;
+}
 
 
 
 
+.title-footer {
+    color: var(--brand-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+
+.title-footer:hover {
+    background-color: var(--brand-color9);
+}
+
+.title-footer:focus {
+    background-color: var(--brand-color9);
+}
+
+
+.logo-studio-footer {
+    color: var(--brand-color6);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+
+.footer-text {
+    color: var(--brand-color6);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+
+}
+
+.media-text {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color4);
+    margin-bottom: 16px;
+
+
+}
+
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    transition-property: background-color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-item {
+    width: 40px;
+    height: 40px;
+
+
+
+
+}
+
+
+.footer-link {
+    display: block;
+    width: inherit;
+    height: inherit;
+    background-color: var(--brand-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.footer-link:hover {
+    background-color: var(--brand-color9);
+
+}
+
+.footer-link:focus {
+    background-color: var(--brand-color9);
+}
+
+.img-footer {
+    fill: var(--brand-color6);
+
+}
+
+.footer-subscribe-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color4);
+    margin-bottom: 16px;
+    display: block;
+}
+
+
+
+
+.footer-form {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
+.email-footer::placeholder {
+    padding-left: 16px;
+    color: var(--brand-color4);
+}
+
+
+.btn-footer {
+    min-width: 165px;
+    height: 40px;
+    background-color: var(--brand-color);
+    color: var(--brand-color4);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 24px;
+    justify-content: center;
+    letter-spacing: 0.04em
+}
+
+.btn-footer:focus {
+    background-color: var(--brand-color3);
+}
+
+.btn-footer:hover {
+    
+    
+    background-color: var(--brand-color3);
+}
+
+
+
+.email-footer {
+    width: 264px;
+    height: 40px;
+    border: 1px solid var(--brand-color4);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    background-color: transparent;
+    margin-right: 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: var(--brand-color4);
+}
+
+.email-footer::placeholder {
+    padding-left: 16px;
+    color: var(--brand-color4);
+}
+
+
+.btn-footer {
+    min-width: 165px;
+    height: 40px;
+    background-color: var(--brand-color);
+    color: var(--brand-color4);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 24px;
+    justify-content: center;
+    letter-spacing: 0.04em
 }
 
 }
