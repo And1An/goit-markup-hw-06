@@ -212,10 +212,6 @@ header {
 
 
 
-.list-link::after {}
-
-
-
 
 .list-link:hover {
     color: var(--brand-color3);
