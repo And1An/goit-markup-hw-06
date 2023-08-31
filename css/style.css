@@ -542,6 +542,10 @@ address {
 
 }
 
+.section-three{
+    display: none;
+}
+
 
 .subtitle {
     color: var(--brand-color2);
@@ -1540,6 +1544,14 @@ address {
 @media screen and (min-width:1158px) {
 
 
+    .logo-div2{
+        margin-right: 75px;
+    }
+
+    .footer-email-title{
+        text-align: left;
+    }
+
         .container {
             max-width: 1158px;
             padding-left: 15px;
@@ -1549,6 +1561,12 @@ address {
             
     
     
+        }
+
+
+        .container-tabl{
+            width: 1184px;
+            
         }
 
 
@@ -1775,6 +1793,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color4);
+    margin-bottom: 0;
 
     font-weight: 500;
 }
@@ -1827,20 +1846,6 @@ address {
 }
 
 
-.title-footer {
-    color: var(--brand-color);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
-
-
-}
-
 .media-text {
     font-weight: 500;
     line-height: 1.5;
@@ -1874,6 +1879,7 @@ address {
 
 
 
+
 .title-footer {
     color: var(--brand-color);
     font-family: 'Raleway', sans-serif;
@@ -1884,6 +1890,8 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 156px;
+    margin-left: 0;
 
 }
 
@@ -1910,6 +1918,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: left;
 
 
 }
@@ -2042,7 +2051,7 @@ address {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: transparent;
-    margin-right: 24px;
+    margin-right: 0;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -2078,6 +2087,10 @@ address {
     padding: 8px 24px;
     justify-content: center;
     letter-spacing: 0.04em
+}
+
+.section-three {
+    display: block;
 }
 
 }
