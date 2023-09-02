@@ -1458,6 +1458,7 @@ address {
            .header-container {
                display: flex;
                align-items: center;
+               width: 100%;
     
     
            }
@@ -1521,8 +1522,8 @@ address {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    justify-content: center;
+    gap: 72px 24px;
+  
     align-items: flex-start;
 
 
