@@ -400,9 +400,10 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
 
-
-
+.mob-menu-link2{
+    color:var(--brand-color3);
 }
 
 
@@ -492,6 +493,10 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+}
+
+.mob-email-link{
+    color: var(--brand-color5);
 }
 
 .caption{

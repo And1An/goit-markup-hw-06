@@ -55,7 +55,7 @@
                 </svg>
             </button>
             <ul class="mob-menu-list">
-                <li class="mob-menu-item"><a class="mob-menu-link" href="./index.html">Studio</a></li>
+                <li class="mob-menu-item"><a class="mob-menu-link mob-menu-link2" href="./index.html">Studio</a></li>
                 <li class="mob-menu-item"><a class="mob-menu-link" href="./portfolio.html">Portfolio</a></li>
                 <li class="mob-menu-item"><a class="mob-menu-link" href="">Contacts</a></li>
             </ul>
@@ -183,12 +183,35 @@
             <div class="container">
                 <h2 class="subtitle">What are we doing</h2>
                 <ul class="list container-img">
-                    <li class="subtitle-items"><img src="./images/img-menu-1.jpg" width="360" height="300" alt="PC">
+                    <li class="subtitle-items">
+                     <picture>
+                        <source srcset="./images/img-menu-1.jpg x1, ./images/img-menu-1x2.jpg" media="(min-width:1158px)">
+                        <source srcset="./images/img-menu-1.jpg x1, ./images/img-menu-1x2.jpg" media="(min-width:768px)">
+                        <source srcset="./images/img-menu-1.jpg x1, ./images/img-menu-1x2.jpg" media="(min-width:428px)">
+                        <img src="./images/img-menu-1.jpg" width="360" height="300" alt="PC">
+                    </picture>
                     </li>
-                    <li class="subtitle-items"><img src="./images/img-menu-2.jpg" width="360" height="300" alt="PHONES">
+
+                    <li class="subtitle-items">
+                    <picture>
+                        <source srcset="./images/img-menu-2.jpg x1, ./images/img-menu-2x2.jpg" media="(min-width:1158px)">
+                        <source srcset="./images/img-menu-2.jpg x1, ./images/img-menu-2x2.jpg" media="(min-width:768px)">
+                        <source srcset="./images/img-menu-2.jpg x1, ./images/img-menu-2x2.jpg" media="(min-width:428px)">
+                        <img src="./images/img-menu-2.jpg" width="360" height="300" alt="PC">
+                    </picture>
                     </li>
-                    <li class="subtitle-items"><img src="./images/img-menu-3.jpg" width="360" height="300" alt="PHONE">
+                 
+                  
+                    <li class="subtitle-items">
+                        <picture>
+                            <source srcset="./images/img-menu-3.jpg x1, ./images/img-menu-3x2.jpg" media="(min-width:1158px)">
+                            <source srcset="./images/img-menu-3.jpg x1, ./images/img-menu-3x2.jpg" media="(min-width:768px)">
+                            <source srcset="./images/img-menu-3.jpg x1, ./images/img-menu-3x2.jpg" media="(min-width:428px)">
+                            <img src="./images/img-menu-3.jpg" width="360" height="300" alt="PC">
+                        </picture>
                     </li>
+
+                   
                 </ul>
             </div>
         </section>
