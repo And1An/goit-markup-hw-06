@@ -372,8 +372,8 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 0;
+    margin-right: 0;
     
 
 }
@@ -1193,6 +1193,10 @@ address {
 
 }
 
+.container-tabl{
+    width: 294px;
+}
+
 .email-footer {
     width: 398px;
     height: 40px;
@@ -1299,7 +1303,7 @@ address {
 
 }
 
-.section-two-items{
+.section-two-items:not(:last-child){
     margin-bottom: 72px;
 }
 
@@ -1342,6 +1346,7 @@ address {
         display: flex;
         flex-wrap: wrap;
         gap: 64px 24px;
+
     }
 
 
@@ -1402,6 +1407,7 @@ address {
     .subject-list-teammate {
         width: calc((100% - 24px) / 2);
         display: inline-block;
+        
        
 
 
@@ -1530,6 +1536,8 @@ address {
     margin-top: 0;
 }
 
+
+
 .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -1556,12 +1564,6 @@ address {
    margin-left: 0;
 }
 
-.media-text {
-    text-align: left;
-    
-
-
-}
 
 
 
@@ -1580,11 +1582,6 @@ address {
 }
 
 
-.title-footer{
-    margin-left: 0;
-    margin-right: 150px;
-
-}
 
 
 .media-text{
@@ -1862,7 +1859,6 @@ address {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background-color: transparent;
-    margin-right: 24px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -1965,20 +1961,7 @@ address {
 
 
 
-.title-footer {
-    color: var(--brand-color);
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
-    margin-right: 156px;
-    margin-left: 0;
 
-}
 
 .title-footer:hover {
     background-color: var(--brand-color9);
@@ -2176,5 +2159,28 @@ address {
     margin-bottom: 0;
     
 }
+.title-footer {
+    color: var(--brand-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 156px;
+    margin-left: 0;
+
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+    .header-container{
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
 
 }
