@@ -1317,6 +1317,10 @@ address {
    margin-left: auto;
     }
 
+    .modal{
+        width: 319px;
+    }
+
 }
 
 @media screen and (min-width: 428px) {
