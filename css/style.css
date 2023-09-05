@@ -373,8 +373,7 @@ address {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 0;
-    margin-right: 0;
+   
     
 
 }
@@ -429,6 +428,10 @@ address {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)), url(../images/hero-mobil-2x.jpg);
     }
+
+        .title-footer{
+            margin-left: 0;
+        }
 }
 
 
@@ -867,7 +870,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+ 
 
 
 
@@ -881,7 +884,7 @@ address {
     transition-property: background-color;
     transition-duration: 250ms, 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 72px;
+    
 }
 
 .media-text {
@@ -1166,6 +1169,7 @@ address {
 }
 
 
+
 .modal-check:checked+.modal-check-text span {
     background-color: var(--brand-color3);
     border: none;
@@ -1192,7 +1196,7 @@ address {
 }
 
 .container-tabl{
-    width: 296px;
+    max-width: 296px;
 }
 
 .email-footer {
@@ -1238,7 +1242,7 @@ address {
     padding: 8px 24px;
     justify-content: center;
     letter-spacing: 0.04em;
-    margin: 16px auto;
+
     
 }
 
@@ -1326,6 +1330,16 @@ address {
 @media screen and (min-width: 428px) {
     .container {
         max-width: 428px;
+        
+
+    }
+
+        .container-tabl {
+            max-width: 296px;
+        }
+
+    .subject-list-teammate:not(:last-child){
+        margin-bottom: 72px;
 
     }
 
@@ -1387,7 +1401,7 @@ address {
 
         .footer-email-title {
     text-align: left;
-            margin-bottom: 0;
+            margin-bottom: 16px;
         }
 
     .section-two-items {
@@ -1593,6 +1607,11 @@ address {
     text-align: left;
 }
 
+.mob-menu-item:not(:last-child){
+    margin-bottom: 40px;
+    
+}
+
 
 
 
@@ -1618,14 +1637,11 @@ address {
 
     }
 
-         .title-footer{
-            margin-left: -140px;
-         }
 
-                 .media-text{
-                    text-align: left;
-                 }
 
+     
+
+              
 }
 
 
@@ -2194,6 +2210,9 @@ address {
     margin-right: 156px;
     margin-left: 0;
 
+}
+.contacts-list-link{
+    font-size: 16px;
 }
 
 }
