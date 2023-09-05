@@ -1317,7 +1317,7 @@ address {
 @media screen and (max-width: 419px){
 
     .email-footer{
-   width: auto;
+    width: 100%;
    margin-left: auto;
     }
 
