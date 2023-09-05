@@ -1635,7 +1635,7 @@ address {
                 gap: 64px 24px;
             }
 
-                .contacts-list-link {
+                .contacts-list {
                     font-size: 16px;
                     flex-direction: row;
         
