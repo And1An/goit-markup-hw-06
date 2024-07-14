@@ -1313,9 +1313,9 @@ address {
 
 
 
-
 @media screen and (max-width: 419px){
 
+   
     .email-footer{
     width: 100%;
    margin-left: auto;
@@ -1338,10 +1338,6 @@ address {
             max-width: 296px;
         }
 
-    .subject-list-teammate:not(:last-child){
-        margin-bottom: 72px;
-
-    }
 
     .footer-form {
         align-items: center;
